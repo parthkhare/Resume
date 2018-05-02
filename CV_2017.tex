@@ -1,0 +1,304 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Parth}{Khare}{ \urlstyle{same}\url{parthakhare@gmail.com| +91 9868485655} \\
+%\href{mailto:dd367@cornell.edu}{dd367@cornell.edu} | 607.379.5733
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{IGIDR, RBI}
+\descript{MSc Economics | 2010-2012}
+%Majors in Econometrics \\
+%\location{Jul 2010-Jul 2012|Mumbai}
+\sectionsep
+
+\subsection{Delhi University}
+\descript{BA[H] Economics | 2006-2009}
+%\location{Jul 2006 -Jul 2009 |Delhi}
+%\location{ Cum. GPA: 3.92 / 4.0 \\
+%Major GPA: 3.94 / 4.0}
+\sectionsep
+
+\subsection{Sanskriti School}
+\location{CBSE(XII) 2005 | Delhi}
+\sectionsep
+
+\subsection{La Martiniere for Boys}
+\location{ISCE(X) 2003 | Lucknow}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    PORTFOLIO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Portfolio}
+Data Science Bio:
+\href{https://parthkhare.github.io/}{\custombold{SociocaRtography}} \\
+Urban Sciences:
+\href{https://parthakhare.carto.com/viz/8c4d97e0-6510-11e6-ad84-0ef24382571b/embed_map}{\custombold{Delhi Crime Map}} \\
+Blog:
+\href{https://rutilitykit.wordpress.com/about/}{\custombold{R Utility Kit}}\\
+Github: \href{https://github.com/parthkhare?tab=repositories}{\custombold{parthkhare}} \\
+LinkedIn: \href{https://www.linkedin.com/profile/view?id=43877647&trk=nav_responsive_tab_profile}{\custombold{parthkhare}} \\
+Photography:\href{http://parthkhare.format.com/}{\custombold{katha-Rsis}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Skills}
+\subsection{Statistics}
+Parametric/Non-parametric regression \\
+Machine Learning (Decision Trees) \\
+Natural Language Processing \\
+\sectionsep
+
+\subsection{Geo-Spatial Analysis}
+High-Res. Satellite Image Processing \\
+Feature Extraction \& Classification \\
+Weather Monitoring\\
+Geo-Coding \& LWR/Kriging \\
+%Geographically Weighted Regression \\%
+\sectionsep
+
+
+\subsection{Programming}
+\textbf{Data:} R/SAS/SQL/STATA, RShiny, Cloud Computing, Python\\
+\textbf{GIS:} ArcGIS, GeoDa, QGIS \\
+%{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+%Unix Tools and Scripting \\
+\sectionsep
+
+\subsection{Other Tools}
+Photoshop CS6, HTML, MS Office, \LaTeX\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Interests|Awards}
+\subsection{Data Mining:}
+Conducted Data Mining training for Indian Civil Servants \& IBM (hackathon)\\
+Coded custom packages for GIS/GBM\\
+In Ford Foundation Technology Pool\\
+Rank holder in Kaggle NLP Text-Mining\\
+\sectionsep
+
+\subsection{Photography:}
+Minimalist works featured in Exhibitions \\
+\sectionsep
+
+\subsection{Theater:}
+Won Critics' acclaim award at 'Old World Habitat Theatre Festival'(IHC)\\
+\sectionsep
+
+
+%\section{Interests/Awards}
+%\subsection{Data Mining}
+%\location{Over 5000 lines:}
+%Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
+%OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\
+%\location{Over 1000 lines:}
+%C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+%\location{Familiar:}
+%AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Ministry of Finance}
+%\descript{Delhi}%
+\descript{Consultant to Chief Economic Adviser of India, Government of India|Oct '16 - Present}
+\location{Big Public Data analyses informing Indian Economic policy}
+\vspace{\topsep}
+\begin{tightemize}
+\item Executed first ever \custombold{Prime Minister's Office} led big data study assessing performance of \custombold{Bio-metric Aadhaar authenticated} MNREGA, Pension \& PDS fund disbursal to \custombold{80 million beneficiaries}, expediting national technology policy
+\item Wrote chapter in Indian Economic Survey using Machine Learning on Satellite Imagery to \custombold{re-define India's Urbanization rate} \& improve property tax revenue
+\item Currently running a comprehensive study  \custombold{Economic Impact of Climate Change on Indian Agriculture over 60 years}, using high frequency geo-spatial data on rainfall, surface temperature, groundwater \& irrigation data
+\item Conducted fiscal prospects for piloting \custombold{UBI in India}; Assessed \custombold{Migration from Railway passenger data}; Enhanced public data intelligence by consolidating Employment, Assets, Amenities, Health, Crime data in disparate geographies
+\end{tightemize}
+
+\location{Capacity Enhancement: Indian Government Data}
+\begin{tightemize}
+\item Digitized 80 yrs of Indian Weather (temperature/rain) Data, extracted from archaic OMR, ASCII \& Fortran format(s) with \custombold{4000+ stations}. Massive improvement over \custombold{Global Climate (IPCC, GHCN) database} with 400 stations
+\item Lead joint collaboration between Ministry of Earth Sciences, NDMA \&EM-Dat to digitize first ever database on Indian Natural Disasters
+\end{tightemize}
+
+\sectionsep
+
+\runsubsection{Nielsen [Indicus]}
+%\descript{Delhi}%
+\descript{Manager, Data Sciences | Apr '14 - Oct '16}
+\location{Project head of 'The GRID': Location intelligence tool for micro estimation of socio-economic attributes @ 100m using high resolution geo-spatial features}
+%\vspace{\topsep}% % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item \custombold{Designed code architecture}, managed \& trained 15 member Data\& GIS teams
+\item Explored wide range of open \& closed sourced geo-spatial datasets, \custombold{Landsat-8, Night-lights, NOAA, VIIRS, AOD} rasters \& commercial POI vectors
+\item Innovated new indices \custombold{detecting building height/density}, green areas customized for local-geography \& adjusted for cloud-noise
+\item Extended the production grade GRID architecture to \custombold{Moscow, Indonesia}
+\item Tailored market intelligence use cases for Retail, FMCG and Telecom domains
+\item Developed All India Self Organizing \custombold{Neural Net Maps} on \custombold{Census \& NFHS}
+
+%
+\end{tightemize}
+\sectionsep
+
+% MERGING Indicus and Nielsen %
+%-------------------------------
+%\runsubsection{Indicus Analytics}
+%\descript{Policy Think Tank|Delhi}%
+%\descript{Data Scientist | Apr'14 – Mar'15}
+%\location{Self Organizing Maps Clustering:  Compare relative spread of socio-economic attributes to evaluate their district \& state wise performance}
+%\begin{tightemize}%
+%\item  Applied Neural-net framework to generate Heat-Map Plotting Engine in R%
+%\end{tightemize}%
+%\sectionsep%
+%-------------------------------
+% MERGING Indicus and Nielsen %
+
+\runsubsection{Fractal Analytics}
+%\descript{Mumbai}%
+\descript{Analyst | apr'12 -mar'14}
+\location{Insurance Demand Forecasting: Decision Trees to assess demand \& potential risk for 24 lines of commercial insurance for a Fortune 50 in USA}
+\begin{tightemize}
+%\item Contributed as a thought partner in defining the scope of the business problem \& translating it for developing model  friendly hypotheses .%
+\item Analyzed massive \& complex data, Fuzzy Matching  to increase data density
+\item Developed production grade non-parametric ensemble model (\custombold{Gradient Boosting, Spline Regression \& GLMM}) for estimating insurance potential
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+\runsubsection{ISRO, Asian Conference on Remote Sensing [WP]}
+\descript{|2017}
+Built-up density, Nightlight, Population density \& Workforce participation to redefine India's Urbanization rate. Presented to \custombold{creator of Nightlights Dr.Chris Elvidge (NASA),} also published in Indian Economic Survey, 2017
+\sectionsep
+
+\runsubsection{UNICEF, KCCI}
+\descript{| 2011}
+Analysis of complaints received by the National Commission for Protection Child Rights (NCPCR) to develop speedy complaint redressal system
+\sectionsep
+
+\runsubsection{IHD, Indian Society of Labor Economics}
+\descript{| 2010}
+Inter-linkages of Income, Livelihood \& Migration patterns of urban-poor
+\sectionsep
+
+%\section{Research}
+%\runsubsection{Cornell Robot Learning Lab}
+%\descript{| Head Undergrad Research}
+%\location{Jan 2014 – Present | Ithaca, NY}
+%Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh %Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+%\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Societies}
+
+%\begin{tabular}{rll}
+%2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+%2014   & National   & The Global Leadership and Education Forum %(tGELF)\\
+%2012   &  National  & Golden Key International Honor Society\\
+%2012   &  National   & National Society of Collegiate Scholars\\
+%\end{tabular}
+%\sectionsep
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
